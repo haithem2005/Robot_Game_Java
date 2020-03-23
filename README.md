@@ -8,7 +8,7 @@
    
 <h3>Protocol</h3>
 
-<h5>First, your solution reads a header from stdin like this:</h5>
+<h5>First, your solution reads a header from stdin text file like this:</h5>
 <ul>
 <li>The size of the table as two 16-bit little-endian integers [width, height]</li>
 <li>The objects starting position as two 16-bit little-endian integers [x, y]</li>
@@ -16,7 +16,7 @@
 
 <h5>This is followed by an arbitrarily long stream of commands of 8-bit integers.</h5>
 
-<h5>When the simulation is complete, your program outputs the answer to stout as per
+<h5>When the simulation is complete, your program outputs the answer to stout text file as per
     below:</h5>
 <ul>
 <li>If the simulation succeeded: The objects final position as two 16-bit little-endian
@@ -33,7 +33,7 @@
    <h5>The commands are:</h5>
    <ul>
    
-   <li>0 = quit simulation and print results to stout</li>
+   <li>0 = quit simulation and print results to stout text file</li>
    <li>1 = move forward one step</li>
    <li>2 = move backwards one step</li>
    <li>3 = rotate clockwise 90 degrees (eg north to east)</li>
